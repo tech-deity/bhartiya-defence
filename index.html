@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>BhartiyaDefence</title>
+   <link rel="stylesheet" href="css/main.css">
+</head>
+<body  >
+
+   <div class="navbar">
+       <div class="container">
+           
+        <a href="#"><img src="src/Bhartiyadefence.svg" alt=""></a>
+        
+
+        <img id="mobile-cta" class="mobile-menu" src="src/menu.svg" alt="menu-icon">
+       
+       
+        <nav>
+
+            <img id="mobile-exit" class="mobile-menu-exit" src="src/close.svg" alt="close-icon">
+
+            <ul class="primary-nav">
+                <li class="current">
+                    <a href="#">Home</a></li>
+                   <li> <a href="#">National</a></li>     
+                  <li> <a href="#">International</a></li> 
+                   <li> <a href="#">GEO POLITICS</a> </li> 
+                
+            </ul>
+            <ul class="secondary-nav">
+                   <li> <a href="#">Contact</a></li>     
+                  <li class="go-premium-cta"> <a href="#">Honor Point</a></li> 
+                
+            </ul>
+
+        </nav>
+    
+    
+    </div>
+   </div>
+
+ <section class="hero">
+     <div class="container">
+         <div class="left-col">
+
+
+                        <h1 class="logo-text">Bhartiya<span>Defence</span></h1>
+
+                         <p class="sub-head"> for latest update please follow <br> us on social media </p>
+    
+    </div>
+
+     </div>
+
+ </section>
+
+ <section class="testimonial-section">
+     <div class="container">
+
+        <ul>
+            <li>
+                <img src="src/s.png" alt="person image">
+                <blockquote>"lorem ipsum jdsfbsdufdbshfhbsadjgfbsadhfbsadbfds</blockquote>
+            <cite> jack evan</cite>
+            </li>
+            <li>
+                <img src="src/s.png" alt="person image">
+                <blockquote>"lorem ipsum jdsfbsdufdbshfhbsadjgfbsadhfbsadbfds</blockquote>
+            <cite> jack evan</cite>
+            </li>
+
+            <li>
+                <img src="src/s.png" alt="person image">
+                <blockquote>"lorem ipsum jdsfbsdufdbshfhbsadjgfbsadhfbsadbfds</blockquote>
+            <cite> jack evan</cite>
+            </li>
+
+
+
+        </ul>
+
+     </div>
+ </section>
+
+
+
+ <section class="conact-section">
+     <div class="container">
+         <div class="contact-left">
+             <h2>Contact</h2>
+
+             <form action="">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email </label>
+                <input type="email" name="email" id="email">
+                
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                
+                <input type="submit" class="send-message-cta" value="send messsage">
+
+            </form>
+         </div>
+
+        <div class="contact-right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1694695.9098560368!2d73.20796333332217!3d33.94233824288592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e05a3fff50b093%3A0x2c2b41f6cac95d42!2sAzad%20Jammu%20and%20Kashmir!5e0!3m2!1sen!2sin!4v1622963779603!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+     </div>
+ </section>
+
+
+
+ <script>
+
+     const  mobileBtn=document.getElementById('mobile-cta')
+     nav=document.querySelector('nav')
+     mobileBtnExit=document.getElementById('mobile-exit');
+    mobileBtn.addEventListener('click',()=>{
+
+        nav.classList.add('menu-btn');
+    })
+
+    
+    mobileBtnExit.addEventListener('click',()=>{
+
+     nav.classList.remove('menu-btn')
+})
+
+
+ </script>
+
+</body>
+</html>
